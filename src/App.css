@@ -1,0 +1,40 @@
+footer {
+  background-color: #f2f2f2;
+  padding-top: 20px;
+  text-align: center;
+  margin-top: 430px;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 1.5rem;
+  padding: 20px 0;
+}
+
+.footer-social a {
+  color: #222;
+  text-decoration: none;
+  transition: transform 0.2s;
+}
+
+.footer-social a:hover {
+  transform: scale(1.2);
+  color: #007bff;
+}
+
+.footer-bottom {
+  background-color: #c2c2c2;
+  padding: 10px 0;
+}
+
+.footer-bottom p {
+  margin: 0;
+  color: #333;
+}
+
+.footer-bottom a {
+  color: #000;
+  text-decoration: underline;
+}
